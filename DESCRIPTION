@@ -1,0 +1,22 @@
+Package: lemoh
+Type: Package
+Title: Louis Everest's Misc Ontario Health Functions
+Version: 0.1.0
+Author: Louis Everest [aut, cre]
+Maintainer: Louis Everest <louis.everest@ontariohealth.ca> 
+Description: Miscellaneous functions for occupational health research in R
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    purrr,
+    rlang,
+    tibble,
+    lubridate,
+    tidyr,
+    powerjoin,
+    LTASR
+    
