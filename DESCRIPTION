@@ -18,5 +18,6 @@ Imports:
     lubridate,
     tidyr,
     powerjoin,
-    LTASR
+    LTASR,
+    ggplot2
     

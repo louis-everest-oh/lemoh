@@ -76,6 +76,8 @@ get_table_annual_exposure <- function(person_data, exposure_data,
   if(!all(c("id","pybegin","dob","dlo","hire_date","term_date")
           %in% colnames(person_data))){
     stop("ERROR: missing one or more mandatory variables: id, pybegin, do, dlo, hire-date, term_date")}
+  init <- 0
+  end <- 0
 
   exp_var <- unlist(lapply(exp_vars, function(x) x$var))
   exp_lag <- unlist(lapply(exp_vars, function(x) x$lag))
